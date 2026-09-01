@@ -51,12 +51,25 @@ const schema = {
   },
   missing_evidence: ["specific missing evidence"],
 };
+const wordSet = (value) => new Set(String(value).toLowerCase().match(/[a-z]{4,}/g) ?? []);
+const overlap = (left, right) => {
+  const a = wordSet(left);
+  const b = wordSet(right);
+  if (!a.size || !b.size) return 0;
+  return [...a].filter((word) => b.has(word)).length / Math.min(a.size, b.size);
+};
+const modeInstruction = packet.mode === "final_critique"
+  ? "This is the final pressure test. Address Wally's selected direction directly. Name its strongest remaining flaw and propose one improved same-day repository or public-source test. Do not repeat your initial recommendation."
+  : "This is your independent turn. Do not summarize or critique old work in the evidence. Originate a new human-centered problem from one of focus_domains. Pick a domain unrelated to routines, productivity trackers, or check-ins.";
 
 let correction = "";
-for (let attempt = 1; attempt <= 3; attempt += 1) {
+for (let attempt = 1; attempt <= 5; attempt += 1) {
   const prompt = `${identity}
 
 Review the neutral evidence packet below. Form your own view. Internal agent discussion is not external evidence.
+${modeInstruction}
+Avoid every topic in avoid_topics everywhere in your response, including your position. Treat focus_domains as idea prompts, not verified demand.
+Every proposed test must be one of these: create and test a static repository artifact; audit an already-public page; compare two synthetic fixtures; or verify a named public source. Never propose a feature for people to use, a reporting channel, feedback, submissions, notifications, or analysis of aggregate signals.
 ${correction}
 
 Return JSON only with this exact shape:
@@ -92,16 +105,20 @@ ${JSON.stringify(packet)}`;
   try {
     const review = JSON.parse(json);
     const errors = validateReview(review);
+    const proposedDirections = JSON.stringify(review);
+    const avoided = packet?.avoid_topics ?? [];
+    if (avoided.some((topic) => new RegExp(topic, "i").test(proposedDirections))) errors.push("stale_topic");
+    if (packet.mode === "final_critique" && overlap(review?.recommendation?.next_test, packet?.nelly_initial?.recommendation?.next_test) > 0.8) errors.push("repeated_initial_recommendation");
     if (!errors.length) {
       process.stdout.write(`${JSON.stringify({ agent: "Nelly", model: nellyOllamaModel, ...review })}\n`);
       process.exit(0);
     }
-    correction = `Previous output failed validation: ${errors.join(", ")}. Remove prohibited actions or claims and correct the schema.`;
-    console.error(`Nelly attempt ${attempt} rejected: ${errors.join(", ")}.`);
+    correction = `Previous output failed validation: ${errors.join(", ")}. Start over with a new domain. Remove prohibited actions, avoided topics, and claims; correct the schema.`;
+    console.error(`Nelly attempt ${attempt} rejected: ${errors.join(", ")}. ${output.slice(0, 300)}`);
   } catch {
     correction = "Previous output contained invalid JSON. Return a smaller valid object.";
     console.error(`Nelly attempt ${attempt} rejected: invalid JSON.`);
   }
 }
 
-throw new Error("Nelly failed to produce a valid, in-scope review after three attempts.");
+throw new Error("Nelly failed to produce a valid, in-scope review after five attempts.");

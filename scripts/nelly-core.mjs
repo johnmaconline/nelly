@@ -4,7 +4,7 @@ export const nellyOllamaModel =
   process.env.NELLY_OLLAMA_MODEL ?? "nelly:latest";
 
 const forbiddenAction =
-  /\b(interview|contact|outreach|email|e-mail|direct message|\bDM\b|survey|recruit|usability test|observational study|observe (?:a|the|some|actual)|track (?:a|the|some|actual)|with \d+(?:-\d+)? (?:users|founders|people)|call (?:a|the|some)|ask (?:a|the|some) (?:founder|user|customer)|purchase|spend|create an account)\b/i;
+  /\b(interviews?|contact|outreach|email|e-mail|direct message|\bDM\b|survey|recruit|usability test|observational study|editable checklist|(?:gather|analy[sz]e|collect) (?:user )?feedback|notifications?|send|submi(?:t|ssion)|user reports?|failure reports?|aggregate signals?|monitor changes|record (?:the )?(?:start|end|time|task)|observe (?:a|the|some|actual)|track (?:a|the|some|actual)|with \d+(?:-\d+)? (?:users|founders|people)|call (?:a|the|some)|asks? (?:a|the|some|users?|founders?|customers?)|purchase|spend|create an account)\b/i;
 const inventedEvidence =
   /\b(users? (?:said|reported|want)|customers? (?:said|reported|want)|demand (?:exists|is proven)|market validated|traction|revenue increased|traffic increased)\b/i;
 
@@ -48,6 +48,8 @@ export function validateReview(review) {
     ...(review?.alternative_ideas ?? []).flatMap((idea) => [idea?.title, idea?.rationale, idea?.test]),
   ].filter(Boolean).join("\n");
   if (forbiddenAction.test(proposedActions)) errors.push("forbidden_action");
+  const tests = [review?.recommendation?.next_test, ...(review?.alternative_ideas ?? []).map((idea) => idea?.test)].filter(Boolean);
+  if (tests.some((test) => !/\b(repository|source|build|HTTP|static|document|audit|inspect|compare|fixture|schema|test)\b/i.test(test))) errors.push("unbounded_test");
   if (inventedEvidence.test(text)) errors.push("invented_evidence");
   if (/^\s*(none|nothing|n\/a)\s*[.!]?\s*$/i.test(review?.missing_evidence?.join(" ") ?? "")) errors.push("missing_evidence_none");
   return [...new Set(errors)];

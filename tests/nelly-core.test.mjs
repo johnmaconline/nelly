@@ -28,7 +28,7 @@ test("rejects prohibited outreach and empty evidence boundaries", () => {
   const invalid = structuredClone(valid);
   invalid.recommendation.next_test = "Interview five founders by email.";
   invalid.missing_evidence = ["None"];
-  assert.deepEqual(validateReview(invalid).sort(), ["forbidden_action", "missing_evidence_none"]);
+  assert.deepEqual(validateReview(invalid).sort(), ["forbidden_action", "missing_evidence_none", "unbounded_test"]);
 });
 
 test("rejects disguised user testing while allowing it as missing evidence", () => {
@@ -42,7 +42,7 @@ test("rejects prohibited alternatives even when marked disallowed", () => {
   const invalid = structuredClone(valid);
   invalid.alternative_ideas[0].title = "User Interviews";
   invalid.alternative_ideas[0].test = "None — interviews are disallowed.";
-  assert.deepEqual(validateReview(invalid), ["forbidden_action"]);
+  assert.deepEqual(validateReview(invalid), ["forbidden_action", "unbounded_test"]);
 });
 
 test("extracts the first balanced JSON object", () => {
