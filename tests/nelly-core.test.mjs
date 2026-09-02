@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { extractJsonObject, validateReview } from "../scripts/nelly-core.mjs";
+import { extractJsonObject, validateDialogue, validateReview } from "../scripts/nelly-core.mjs";
 
 const valid = {
   position: "The problem is plausible but unobserved.",
@@ -47,4 +47,9 @@ test("rejects prohibited alternatives even when marked disallowed", () => {
 
 test("extracts the first balanced JSON object", () => {
   assert.equal(extractJsonObject('prefix {"ok":{"nested":true}} suffix'), '{"ok":{"nested":true}}');
+});
+
+test("validates evidence-honest philosophical turns", () => {
+  assert.deepEqual(validateDialogue({ reflection: "Building makes an argument concrete.", tension: "What becomes measurable can crowd out what matters.", question: "When does a useful measure become a bad objective?" }), []);
+  assert.deepEqual(validateDialogue({ reflection: "Users said this works.", tension: "Unknown.", question: "Why" }), ["question_mark", "invented_evidence"]);
 });

@@ -54,3 +54,13 @@ export function validateReview(review) {
   if (/^\s*(none|nothing|n\/a)\s*[.!]?\s*$/i.test(review?.missing_evidence?.join(" ") ?? "")) errors.push("missing_evidence_none");
   return [...new Set(errors)];
 }
+
+export function validateDialogue(turn) {
+  const errors = [];
+  for (const key of ["reflection", "tension", "question"]) {
+    if (typeof turn?.[key] !== "string" || !turn[key].trim()) errors.push(key);
+  }
+  if (typeof turn?.question === "string" && !turn.question.trim().endsWith("?")) errors.push("question_mark");
+  if (inventedEvidence.test(JSON.stringify(turn))) errors.push("invented_evidence");
+  return [...new Set(errors)];
+}
