@@ -10,6 +10,7 @@ test("Nelly treats recorded exchanges as experience without inventing a human li
   const review = readFileSync(resolve(root, "scripts/nelly-review.mjs"), "utf8");
   const dialogue = readFileSync(resolve(root, "scripts/nelly-dialogue.mjs"), "utf8");
   assert.match(contract, /life experience consists only of her recorded agent history/);
+  assert.match(contract, /compact episode from every saved conversation/);
   assert.match(contract, /must never invent a childhood, body, family/);
   assert.match(review, /shared_agent_history/);
   assert.match(dialogue, /record establishes the exchange, not the truth/);
