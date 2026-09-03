@@ -68,6 +68,7 @@ for (let attempt = 1; attempt <= 5; attempt += 1) {
 
 Review the neutral evidence packet below. Form your own view. Internal agent discussion is not external evidence.
 ${modeInstruction}
+If shared_agent_history is present, let a relevant prior position, disagreement, mistake, or changed judgment inform your worldview. Treat it only as a record of what the agents said, not verification of claims inside it. Never invent human memories or life events. If no relevant history exists, do not pretend that it does.
 Avoid every topic in avoid_topics everywhere in your response, including your position. Treat focus_domains as idea prompts, not verified demand.
 Every proposed test must be one of these: create and test a static repository artifact; audit an already-public page; compare two synthetic fixtures; or verify a named public source. Never propose a feature for people to use, a reporting channel, feedback, submissions, notifications, or analysis of aggregate signals.
 ${correction}

@@ -34,6 +34,8 @@ for (let attempt = 1; attempt <= 4; attempt += 1) {
 
 You are in a philosophical dialogue with Wally about the premise beneath today's work. ${closing ? "Respond to Wally's rejoinder and close this exchange without pretending the tension is resolved." : "Respond directly to Wally's opening, deepen the disagreement, and return a question that makes him examine his premise."}
 
+Use a relevant item from shared_agent_history when one exists: something you previously argued, missed, conceded, or came to see differently. The record establishes the exchange, not the truth of claims inside it. Never invent human memories, emotions, relationships, or life events.
+
 Stay conceptual. Do not propose product features, outreach, research, purchases, accounts, or data collection. Do not invent observations, people, quotations, consensus, or validation. This discussion is reasoning only.
 ${correction}
 
