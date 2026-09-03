@@ -24,6 +24,10 @@ test("rejects a no-op counter-test", () => {
   const invalid = { ...valid, counter_test: "Verify the repository source remains unchanged and the build passes without modification." };
   assert.deepEqual(validateAtlasAnalysis(invalid), ["trivial_counter_test"]);
 });
+test("rejects rerunning the same build as a counter-test", () => {
+  const invalid = { ...valid, counter_test: "Run the build locally and record whether it passes." };
+  assert.deepEqual(validateAtlasAnalysis(invalid), ["unbounded_counter_test"]);
+});
 test("contract defines Nelly's independent cumulative work", () => {
   const root = resolve(import.meta.dirname, "..");
   assert.match(readFileSync(resolve(root, "NELLY.md"), "utf8"), /owns a cumulative public project/);

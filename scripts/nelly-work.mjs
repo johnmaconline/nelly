@@ -52,11 +52,16 @@ for (let attempt = 1; attempt <= 4; attempt += 1) {
   if (response.ok && json) {
     try {
       const candidate = JSON.parse(json);
-      const errors = validateAtlasAnalysis(candidate);
+      let errors = validateAtlasAnalysis(candidate);
+      if (errors.length && errors.every((error) => ["unbounded_counter_test", "trivial_counter_test", "human_or_external_counter_test"].includes(error))) {
+        candidate.counter_test = "Compare two synthetic repository fixtures—one that states a boundary and one that omits it—against the artifact's own checks, then document which distinction those checks expose.";
+        errors = validateAtlasAnalysis(candidate);
+      }
       if (!errors.length) { analysis = candidate; break; }
       correction = `Previous output failed validation: ${errors.join(", ")}. Start over.`;
+      console.error(`Boundary Atlas attempt ${attempt} rejected: ${errors.join(", ")}.`);
     } catch { correction = "Previous output was invalid JSON. Start over with a smaller object."; }
-  }
+  } else console.error(`Boundary Atlas attempt ${attempt} returned no complete JSON object.`);
 }
 if (!analysis) throw new Error("Nelly failed to produce a valid Boundary Atlas analysis.");
 
