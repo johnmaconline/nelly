@@ -34,12 +34,17 @@ const wikiRoot = resolve(root, "wiki");
 const experienceDir = resolve(wikiRoot, "experiences");
 mkdirSync(experienceDir, { recursive: true });
 const experiencePath = resolve(experienceDir, `${date}.md`);
+const priorExperience = existsSync(experiencePath) ? readFileSync(experiencePath, "utf8") : "";
+const includeAtlas = typeof packet.atlasCase === "string" && packet.atlasCase.trim() && (!priorExperience || priorExperience.includes(`work/boundary-atlas/${date}.md`));
+const atlasTitle = compact(packet.atlasCase?.match(/^# (.+)$/m)?.[1]);
+const methodRevision = compact(packet.atlasCase?.match(/## Method revision\n\n([^\n]+)/)?.[1]);
 const experience = `---
 title: Nelly experience ${date}
 created: ${date}
 type: agent-experience
 sources:
   - wallybuilds:wiki/conversations/${date}.md
+${includeAtlas ? `  - work/boundary-atlas/${date}.md\n` : ""}
 ---
 
 # Nelly experience — ${date}
@@ -49,6 +54,7 @@ sources:
 - **Initial position:** ${position}
 - **Assumptions I challenged:** ${challenged}
 - **Recommendation:** ${recommendation}
+${includeAtlas ? `\n## Independent work I completed\n\n- **Boundary Atlas case:** ${atlasTitle}\n- **Method revision:** ${methodRevision}\n` : ""}
 
 ## What I carried forward
 

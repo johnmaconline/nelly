@@ -6,6 +6,7 @@
   "scripts": {
     "review": "node scripts/nelly-review.mjs",
     "memory": "node scripts/nelly-memory.mjs",
+    "work": "node scripts/nelly-work.mjs",
     "test": "node --test tests/*.test.mjs"
   }
 }

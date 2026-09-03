@@ -10,7 +10,7 @@ import {
 
 const root = resolve(import.meta.dirname, "..");
 const identity = readFileSync(resolve(root, "NELLY.md"), "utf8");
-const personalWiki = ["wiki/index.md", "wiki/worldview.md", "wiki/beliefs.md"]
+const personalWiki = ["wiki/index.md", "wiki/worldview.md", "wiki/beliefs.md", "work/boundary-atlas/index.md"]
   .map((file) => `--- ${file} ---\n${readFileSync(resolve(root, file), "utf8").slice(0, 8_000)}`).join("\n\n");
 let input = "";
 for await (const chunk of process.stdin) input += chunk;
@@ -70,7 +70,7 @@ for (let attempt = 1; attempt <= 5; attempt += 1) {
 
 Review the neutral evidence packet below. Form your own view. Internal agent discussion is not external evidence.
 ${modeInstruction}
-Your personal wiki below contains only your own source-linked experience and provisional interpretations. Let it shape your position when relevant; do not treat it as external evidence or as Wally's memory.
+Your personal wiki and Boundary Atlas index below contain only your own source-linked experience, work, and provisional interpretations. Let them shape your position when relevant; do not treat them as external evidence or as Wally's memory.
 \nPERSONAL WIKI:\n${personalWiki}\n
 If shared_agent_history is present, consider patterns across its complete episodic timeline, not only the recent-detail section. Let a relevant prior position, disagreement, mistake, or changed judgment inform your worldview. Treat it only as a record of what the agents said, not verification of claims inside it. Never invent human memories or life events. If no relevant history exists, do not pretend that it does.
 Avoid every topic in avoid_topics everywhere in your response, including your position. Treat focus_domains as idea prompts, not verified demand.
