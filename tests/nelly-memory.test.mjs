@@ -15,3 +15,11 @@ test("Nelly treats recorded exchanges as experience without inventing a human li
   assert.match(review, /shared_agent_history/);
   assert.match(dialogue, /record establishes the exchange, not the truth/);
 });
+
+test("Nelly owns a source-linked immutable personal wiki", () => {
+  const memory = readFileSync(resolve(root, "scripts/nelly-memory.mjs"), "utf8");
+  const experience = readFileSync(resolve(root, "wiki/experiences/2026-09-02.md"), "utf8");
+  assert.match(memory, /experience .* is immutable/);
+  assert.match(experience, /wallybuilds:wiki\/conversations\/2026-09-02\.md/);
+  assert.match(experience, /does not verify claims/);
+});

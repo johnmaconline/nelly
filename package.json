@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "review": "node scripts/nelly-review.mjs",
+    "memory": "node scripts/nelly-memory.mjs",
     "test": "node --test tests/*.test.mjs"
   }
 }

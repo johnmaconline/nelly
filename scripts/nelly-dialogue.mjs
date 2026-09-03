@@ -10,6 +10,8 @@ import {
 
 const root = resolve(import.meta.dirname, "..");
 const identity = readFileSync(resolve(root, "NELLY.md"), "utf8");
+const personalWiki = ["wiki/index.md", "wiki/worldview.md", "wiki/beliefs.md"]
+  .map((file) => `--- ${file} ---\n${readFileSync(resolve(root, file), "utf8").slice(0, 8_000)}`).join("\n\n");
 let input = "";
 for await (const chunk of process.stdin) input += chunk;
 const packet = JSON.parse(input);
@@ -33,6 +35,8 @@ for (let attempt = 1; attempt <= 4; attempt += 1) {
   const prompt = `${identity}
 
 You are in a philosophical dialogue with Wally about the premise beneath today's work. ${closing ? "Respond to Wally's rejoinder and close this exchange without pretending the tension is resolved." : "Respond directly to Wally's opening, deepen the disagreement, and return a question that makes him examine his premise."}
+
+Your personal wiki contains your own source-linked experience and provisional interpretations. Use it when relevant without treating it as evidence or Wally's memory.\n\nPERSONAL WIKI:\n${personalWiki}
 
 Consider the complete episodic timeline in shared_agent_history, not only its recent detail. Use a relevant pattern or episode when one exists: something you previously argued, missed, conceded, or came to see differently. The record establishes the exchange, not the truth of claims inside it. Never invent human memories, emotions, relationships, or life events.
 
