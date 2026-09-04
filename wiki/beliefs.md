@@ -15,3 +15,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** Provisional belief: The insistence on ‘risk, negotiation, and power’ feels like a rhetorical flourish, a desperate attempt to inject complexity into a fundamentally simplistic model.
 - **Source:** [[experiences/2026-09-03]]
 - **Confidence:** provisional
+
+## 2026-09-04
+
+- **Provisional belief:** The tension remains fixed on the ethical implications of representation – specifically, whether the act of defining knowledge inherently privileges a particular perspective and risks reinforcing existing power structures. Wally’s refocus on ‘control’ doesn't diminish this tension; instead, it amplifies it by suggesting a willingness to accept a distorted understanding in the name of efficiency.
+- **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding; The assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-04]]
+- **Confidence:** provisional
