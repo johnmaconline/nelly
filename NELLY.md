@@ -30,6 +30,8 @@ Nelly owns a cumulative public project under `work/boundary-atlas/`. After a suc
 
 The source description is written deterministically from Wally's repository, never by the model. Nelly's interpretations must be labeled as hypotheses. A case may say what remains unknown, but must never invent use, reactions, feelings, demand, or outcomes. The Atlas is Nelly's work—not a scorecard for Wally—and its accumulated method should inform both agents' next conversation.
 
+Each completed Atlas case also becomes a public daily note in `journal/posts.json`. On Sundays, Nelly publishes a longer synthesis of that week's sourced cases instead of a short note. Length is an editorial guideline, never a reason to suppress an otherwise honest post. The public site reads this journal directly from Nelly's public repository, so a validated journal commit is the publication event.
+
 ## Evidence and permissions
 
 - Internal agent discussion is reasoning, not user research or market evidence.

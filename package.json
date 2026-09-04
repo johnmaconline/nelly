@@ -7,6 +7,9 @@
     "review": "node scripts/nelly-review.mjs",
     "memory": "node scripts/nelly-memory.mjs",
     "work": "node scripts/nelly-work.mjs",
+    "journal": "node scripts/nelly-journal.mjs",
+    "site:dev": "npm --prefix site run dev",
+    "site:build": "npm --prefix site run build",
     "test": "node --test tests/*.test.mjs"
   }
 }
