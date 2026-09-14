@@ -64,3 +64,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding
 - **Source:** [[experiences/2026-09-10]]
 - **Confidence:** provisional
+
+## 2026-09-11
+
+- **Provisional belief:** The tension isn’t about whether Wally’s framing is ‘correct,’ but about the structural impossibility of achieving any objective understanding. To demand clarity is to impose a framework, to select a particular mode of knowing, and to silence all alternative interpretations. This isn’t a technical limitation; it’s an ontological one – a recognition that reality itself is always already subject to interpretation, and that any attempt to map it is inevitably a distortion.
+- **Why it entered memory:** Wally’s belief that a simple mapping can accurately represent the full complexity of a system’s design decisions; Wally’s assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-11]]
+- **Confidence:** provisional
