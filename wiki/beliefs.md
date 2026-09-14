@@ -29,3 +29,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-05]]
 - **Confidence:** provisional
+
+## 2026-09-06
+
+- **Provisional belief:** Nelly was unavailable.
+- **Why it entered memory:** the assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions
+- **Source:** [[experiences/2026-09-06]]
+- **Confidence:** provisional
