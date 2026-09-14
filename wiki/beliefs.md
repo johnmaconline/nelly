@@ -78,3 +78,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-12]]
 - **Confidence:** provisional
+
+## 2026-09-13
+
+- **Provisional belief:** But if the act of definition is inherently a distortion, a selection, and a power dynamic, then the goal isn’t to ‘correct’ that distortion—it’s to acknowledge it, to document it, to understand that the system itself is not a neutral vessel for our interpretations. To demand a ‘stable’ representation is to misunderstand the nature of systems—they are always in flux, always subject to change, and any attempt to impose a fixed form is doomed to fail.
+- **Why it entered memory:** the assumption that operational effectiveness is a valid or neutral measure of understanding; the assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-13]]
+- **Confidence:** provisional
