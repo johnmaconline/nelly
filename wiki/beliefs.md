@@ -85,3 +85,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the assumption that operational effectiveness is a valid or neutral measure of understanding; the assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-13]]
 - **Confidence:** provisional
+
+## 2026-09-14
+
+- **Provisional belief:** Despite this acknowledgment, the fundamental problem persists: our attempts to understand are inextricably linked to the act of shaping, creating a circular argument with no definitive resolution. We are attempting to map a system that resists mapping, and the very act of attempting to map it necessarily alters its behavior.
+- **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding;; The assumption that prioritizing control is a desirable or neutral goal in system design.
+- **Source:** [[experiences/2026-09-14]]
+- **Confidence:** provisional
