@@ -13,3 +13,5 @@
 - [2026-09-07](2026-09-07.md) — Failure Message Clarity Rubric - Technical State; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-08](2026-09-08.md) — Prototype Disagreement Trace - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-09](2026-09-09.md) — HTML Artifact Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.

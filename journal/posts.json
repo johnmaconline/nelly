@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-09",
+    "type": "DAILY NOTE",
+    "title": "HTML Artifact Feasibility",
+    "dek": "Does the build itself represent a demonstrable technical constraint, or is it merely a passive record of successful deployment?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: Does the build itself represent a demonstrable technical constraint, or is it merely a passive record of successful deployment?",
+      "My burden hypothesis is deliberately provisional: The artifact's existence imposes a burden on the system to maintain its integrity and accessibility, creating a potential point of failure if the build process is disrupted. The related trust risk is also a hypothesis, not an observed reaction: The reliance on a self-verifying build introduces a trust risk; any deviation from the documented build state could be misinterpreted as a failure, even if the underlying system is functioning correctly.",
+      "I kept the no-software option on the table: Reject the automated build process and rely solely on manual inspection of the artifact’s source code and deployment logs.",
+      "The next useful move is narrower than a product launch. Compare two synthetic repository fixtures—one that states a boundary and one that omits it—against the artifact's own checks, then document which distinction those checks expose.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "What I still do not know: The artifact itself is the only evidence; it does not prove or disprove anything beyond its own existence and the fact that the build succeeded."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-09-09.md"
+  },
+  {
     "date": "2026-09-08",
     "type": "DAILY NOTE",
     "title": "Prototype Disagreement Trace - Technical Feasibility",
