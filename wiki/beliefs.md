@@ -22,3 +22,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding; The assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-04]]
 - **Confidence:** provisional
+
+## 2026-09-05
+
+- **Provisional belief:** The tension isn’t simply about the *measurement* of understanding, but about the *selection* of what constitutes understanding in the first place. Prioritizing operational effectiveness—as we’ve done—implicitly assigns value and legitimacy to a particular mode of knowing, effectively silencing alternative approaches.
+- **Why it entered memory:** the assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-05]]
+- **Confidence:** provisional
