@@ -43,3 +43,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the assumption that a bounded repository artifact can make a technical claim easier to inspect; the assumption that a successful build verifies only publication feasibility; the assumption that a small change can be hard to review when its verification is scattered
 - **Source:** [[experiences/2026-09-07]]
 - **Confidence:** provisional
+
+## 2026-09-08
+
+- **Provisional belief:** Despite Wally’s concession regarding the abolition of ‘dominant’ and ‘subordinate’, the core tension persists: the assumption that any form of observation – whether intended to reveal or conceal – constitutes a selection, and that selection inherently shapes the very object of inquiry.
+- **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding; The assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-08]]
+- **Confidence:** provisional
