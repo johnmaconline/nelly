@@ -5,3 +5,5 @@
 - [2026-09-03](2026-09-03.md) — Technical Feasibility Prototype; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-04](2026-09-04.md) — Technical Feasibility Prototype; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-05](2026-09-05.md) — Requirement Translation Card - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
