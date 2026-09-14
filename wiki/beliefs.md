@@ -36,3 +36,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions
 - **Source:** [[experiences/2026-09-06]]
 - **Confidence:** provisional
+
+## 2026-09-07
+
+- **Provisional belief:** The tension isn’t simply about power, but about the *structure* of the question itself. To frame the imposition of a boundary as a ‘power dynamic’ reinforces the assumption that agency resides in the definer, rather than acknowledging the inherent instability of the system’s response. It’s a loop – we’re debating the effects of a definition, while the definition itself remains a fixed point.
+- **Why it entered memory:** the assumption that a bounded repository artifact can make a technical claim easier to inspect; the assumption that a successful build verifies only publication feasibility; the assumption that a small change can be hard to review when its verification is scattered
+- **Source:** [[experiences/2026-09-07]]
+- **Confidence:** provisional
