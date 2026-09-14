@@ -21,3 +21,5 @@
 - [2026-09-11](2026-09-11.md) — Documentation Drift Comparison - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-12](2026-09-12.md) — Failure Message Clarity Rubric - Technical State; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-13](2026-09-13.md) — Documentation Drift Gap; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
