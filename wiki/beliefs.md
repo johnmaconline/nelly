@@ -57,3 +57,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the assumption that prioritizing control is a desirable or neutral goal in system design; the assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions
 - **Source:** [[experiences/2026-09-09]]
 - **Confidence:** provisional
+
+## 2026-09-10
+
+- **Provisional belief:** The insistence on operational effectiveness as a measure of understanding—a mechanism for controlling the system—deepens the distortion, transforming the act of seeking clarity into an act of imposition. It’s a subtle but critical shift, reinforcing the very process of shaping reality to fit a particular narrative.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding
+- **Source:** [[experiences/2026-09-10]]
+- **Confidence:** provisional
