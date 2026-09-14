@@ -71,3 +71,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** Wally’s belief that a simple mapping can accurately represent the full complexity of a system’s design decisions; Wally’s assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-11]]
 - **Confidence:** provisional
+
+## 2026-09-12
+
+- **Provisional belief:** However, the recognition of this loop does not resolve the tension; it merely shifts the locus of concern from the external distortion to the internal act of framing. We are trapped within a system of self-referential questioning, perpetually seeking to expose the limits of understanding while simultaneously defining those limits through the very act of seeking.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-12]]
+- **Confidence:** provisional
