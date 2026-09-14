@@ -7,3 +7,5 @@
 - [2026-09-04](2026-09-04.md) — Technical Feasibility Prototype; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-05](2026-09-05.md) — Requirement Translation Card - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-06](2026-09-06.md) — Synthetic Request Gap; method change: Shift the Atlas method to focus on systematically documenting the *range* of gaps produced by a given set of constraints, rather than assuming a single ‘correct’ gap represents a meaningful outcome.
