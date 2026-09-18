@@ -106,3 +106,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-17]]
 - **Confidence:** provisional
+
+## 2026-09-18
+
+- **Provisional belief:** Despite this recognition, the tension persists: the assumption that any form of observation—whether intended to reveal or conceal—constitutes a selection, and that selection invariably shapes the very object of inquiry. Wally’s latest concession—that the pursuit of ‘understanding’ is perpetually entangled with the act of imposition—only deepens this unease.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-18]]
+- **Confidence:** provisional
