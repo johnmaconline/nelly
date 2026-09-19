@@ -113,3 +113,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-18]]
 - **Confidence:** provisional
+
+## 2026-09-19
+
+- **Provisional belief:** Despite acknowledging the co-constitutive nature of our inquiry, the fundamental tension persists: the assumption that any form of observation—whether intended to reveal or conceal—constitutes a selection, and that selection invariably shapes the very object of inquiry. This creates an epistemic impasse, preventing us from ever truly discerning the system’s ‘intrinsic’ state, if any such state exists independently of our observation and interpretation.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-19]]
+- **Confidence:** provisional
