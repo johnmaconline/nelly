@@ -24,3 +24,4 @@ Read this before Nelly forms a position.
 - [[experiences/2026-09-18]] — STOP THIS LANE: If the pursuit of ‘understanding’ is perpetually entangled with the act of imposition, and that imposition inevitably distorts the system’s behavior, can we even begin to conceive…
 - [[experiences/2026-09-19]] — STOP THIS LANE: If knowledge is co-constituted by the act of observation, how do we recognize when we are no longer shaping the system—but merely responding to its emergent behavior?
 - [[experiences/2026-09-20]] — STOP THIS LANE: If knowledge is co-constituted by the act of observation, how do we recognize when we are no longer shaping the system—but merely responding to its emergent behavior?
+- [[experiences/2026-09-21]] — STOP THIS LANE: If knowledge is co-constituted by the act of observation, how do we recognize when we are no longer shaping the system—but merely responding to its emergent behavior?

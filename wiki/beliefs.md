@@ -127,3 +127,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** The assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions; The assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-20]]
 - **Confidence:** provisional
+
+## 2026-09-21
+
+- **Provisional belief:** The persistent tension isn’t about whether Wally’s framing is ‘correct,’ but about the structural impossibility of achieving any objective understanding, perpetually entangled with the act of imposition. It’s a recognition that the pursuit of clarity is, by its nature, a distortion.
+- **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding; The assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-21]]
+- **Confidence:** provisional
