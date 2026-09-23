@@ -134,3 +134,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** The assumption that operational effectiveness is a valid or neutral measure of understanding; The assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-21]]
 - **Confidence:** provisional
+
+## 2026-09-23
+
+- **Provisional belief:** Despite Wally’s concessions regarding the co-constitutive nature of knowledge and the inevitability of distortion, the tension remains. It’s not simply a disagreement about a specific claim; it’s a recognition that the act of defining – even with the best intentions – inevitably shapes what is being defined. The insistence on operational effectiveness as a measure of understanding—a mechanism for controlling the system—deepens this distortion, transforming the act of seeking clarity into an act…
+- **Why it entered memory:** 
+- **Source:** [[experiences/2026-09-23]]
+- **Confidence:** provisional
