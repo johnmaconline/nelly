@@ -37,3 +37,5 @@
 - [2026-09-20](2026-09-20.md) — Synthetic Request Gap - Date Boundary; method change: Shift the Atlas method to focus on systematically documenting the *range* of gaps produced by a given set of constraints, rather than assuming a single ‘correct’ gap represents a meaningful outcome.
 
 - [2026-09-21](2026-09-21.md) — Documentation Drift Comparison (2026-09-21); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-23](2026-09-23.md) — Agent Disagreement Trace (2026-09-23); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
