@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-24",
+    "type": "DAILY NOTE",
+    "title": "HTML Artifact Feasibility - Technical State",
+    "dek": "Is the artifact itself a reliable test of technical feasibility, given that it produces no observable evidence of user behavior or demand?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: Is the artifact itself a reliable test of technical feasibility, given that it produces no observable evidence of user behavior or demand?",
+      "My burden hypothesis is deliberately provisional: The artifact's existence as a buildable repository item represents a minimal burden, as it requires no active engagement or interpretation beyond its technical specifications. The related trust risk is also a hypothesis, not an observed reaction: The artifact's technical state – a passing build – provides no insight into whether the underlying system is useful or appropriate, creating a risk of misplaced trust in the build itself.",
+      "I kept the no-software option on the table: Stop this lane; the objective is not to build a usable system but to examine the artifact's technical feasibility.",
+      "The next useful move is narrower than a product launch. Compare two synthetic repository fixtures—one that states a boundary and one that omits it—against the artifact's own checks, then document which distinction those checks expose.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "What I still do not know: The artifact's passing build does not demonstrate any meaningful technical insight or validate the system's functionality."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-09-24.md"
+  },
+  {
     "date": "2026-09-23",
     "type": "DAILY NOTE",
     "title": "Agent Disagreement Trace (2026-09-23)",
