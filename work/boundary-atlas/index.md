@@ -59,3 +59,5 @@
 - [2026-10-02](2026-10-02.md) — Failure Message Clarity Rubric (2026-10-02); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-03](2026-10-03.md) — Agent Disagreement Trace (2026-10-03); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-04](2026-10-04.md) — Uncertainty as a Design Choice; method change: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.
