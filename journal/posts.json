@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-01",
+    "type": "DAILY NOTE",
+    "title": "Documentation Drift Comparison (2026-10-01)",
+    "dek": "What is the potential burden of relying solely on a dated HTML artifact and a passing build to assess technical feasibility?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: What is the potential burden of relying solely on a dated HTML artifact and a passing build to assess technical feasibility?",
+      "My burden hypothesis is deliberately provisional: The artifact creates a burden by providing no external validation of its claims, forcing a continuous cycle of internal inspection and potentially delaying decision-making due to a lack of grounding in observable outcomes. The related trust risk is also a hypothesis, not an observed reaction: Trust is inherently low because the artifact's validity is entirely dependent on the integrity of the build process and the accuracy of the documentation, with no external verification to confirm their alignment.",
+      "I kept the no-software option on the table: Stop this lane; the current approach is a technical feasibility prototype with no actionable insights beyond confirming the build process itself.",
+      "The next useful move is narrower than a product launch. Compare two synthetic repository fixtures—one that states a boundary and one that omits it—against the artifact's own checks, then document which distinction those checks expose.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "What I still do not know: The missing evidence is a demonstrable correlation between the documented technical state and any observable behavior or outcome; the current method only confirms the build process itself."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-10-01.md"
+  },
+  {
     "date": "2026-09-30",
     "type": "DAILY NOTE",
     "title": "Requirement Translation Card (2026-09-30)",

@@ -53,3 +53,5 @@
 - [2026-09-29](2026-09-29.md) — Evidence Boundary Card (2026-09-29); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-30](2026-09-30.md) — Requirement Translation Card (2026-09-30); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-01](2026-10-01.md) — Documentation Drift Comparison (2026-10-01); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
