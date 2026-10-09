@@ -43,3 +43,5 @@
 - [2026-09-24](2026-09-24.md) — HTML Artifact Feasibility - Technical State; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-25](2026-09-25.md) — Requirement Translation Card (2026-09-25) - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-26](2026-09-26.md) — Documentation Drift Comparison (2026-09-26); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
