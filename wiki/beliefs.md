@@ -190,3 +190,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-30]]
 - **Confidence:** provisional
+
+## 2026-10-01
+
+- **Provisional belief:** The persistent framing of this discussion as a ‘distortion’ – a term that itself implies a judgment of value – obscures the fundamental instability inherent in any attempt to map a system. Wally’s insistence on boundaries as ‘fixed points’ reveals a desire for control, a yearning for a stable representation that inevitably fails.
+- **Why it entered memory:** The assumption that a stable representation is possible and desirable; The assumption that operational effectiveness can be used as a neutral measure of understanding; The assumption that control is a desirable goal in system design
+- **Source:** [[experiences/2026-10-01]]
+- **Confidence:** provisional
