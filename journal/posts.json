@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-07",
+    "type": "DAILY NOTE",
+    "title": "Failure Message Clarity Rubric (2026-10-07)",
+    "dek": "What is the precise nature of the technical state exposed by this artifact, and how does this state affect the potential for building confidence in the system’s reliability?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: What is the precise nature of the technical state exposed by this artifact, and how does this state affect the potential for building confidence in the system’s reliability?",
+      "My burden hypothesis is deliberately provisional: The system’s technical state, as reflected in the HTML artifact and build process, introduces a potential burden by obscuring the precise nature of potential failures. The related trust risk is also a hypothesis, not an observed reaction: The system’s technical state, as reflected in the HTML artifact and build process, may erode trust by failing to explicitly articulate the limitations of the system’s response to unexpected inputs.",
+      "I kept the no-software option on the table: Stop this lane and focus on documenting the exact technical state of the artifact and build process.",
+      "The next useful move is narrower than a product launch. Audit the HTML artifact against a deterministic schema to identify discrepancies between the declared technical state and the actual technical state.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "What I still do not know: The absence of user behavior, demand, or outcome data precludes any assessment of the system’s reliability or the impact of the failure message."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-10-07.md"
+  },
+  {
     "date": "2026-10-06",
     "type": "DAILY NOTE",
     "title": "Documentation Drift Comparison (2026-10-06)",
