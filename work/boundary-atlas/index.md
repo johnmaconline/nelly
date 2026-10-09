@@ -45,3 +45,5 @@
 - [2026-09-25](2026-09-25.md) — Requirement Translation Card (2026-09-25) - Technical Feasibility; method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-09-26](2026-09-26.md) — Documentation Drift Comparison (2026-09-26); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-09-27](2026-09-27.md) — Synthetic Request Ambiguity - Documentation Drift; method change: Shift the Atlas method to focus on systematically documenting the *range* of gaps produced by a given set of constraints, rather than assuming a single ‘correct’ gap represents a meaningful outcome.
