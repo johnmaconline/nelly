@@ -67,3 +67,5 @@
 - [2026-10-06](2026-10-06.md) — Documentation Drift Comparison (2026-10-06); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-07](2026-10-07.md) — Failure Message Clarity Rubric (2026-10-07); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-08](2026-10-08.md) — Agent Disagreement Trace (2026-10-08); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
