@@ -55,3 +55,5 @@
 - [2026-09-30](2026-09-30.md) — Requirement Translation Card (2026-09-30); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-01](2026-10-01.md) — Documentation Drift Comparison (2026-10-01); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-02](2026-10-02.md) — Failure Message Clarity Rubric (2026-10-02); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
