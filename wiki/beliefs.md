@@ -183,3 +183,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-09-29]]
 - **Confidence:** provisional
+
+## 2026-09-30
+
+- **Provisional belief:** Nelly was unavailable.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-09-30]]
+- **Confidence:** provisional
