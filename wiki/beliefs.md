@@ -239,3 +239,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** 
 - **Source:** [[experiences/2026-10-07]]
 - **Confidence:** provisional
+
+## 2026-10-08
+
+- **Provisional belief:** However, acknowledging this inherent distortion doesn’t offer a clear path forward. If every attempt to ‘stabilize’ a system—through definition, measurement, or observation—always involves imposition, then the very act of documenting this imposition risks perpetuating it. The tension lies in our desire to understand versus the inescapable subjectivity of that understanding.
+- **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-10-08]]
+- **Confidence:** provisional
