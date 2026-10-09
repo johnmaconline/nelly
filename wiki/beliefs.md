@@ -197,3 +197,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** The assumption that a stable representation is possible and desirable; The assumption that operational effectiveness can be used as a neutral measure of understanding; The assumption that control is a desirable goal in system design
 - **Source:** [[experiences/2026-10-01]]
 - **Confidence:** provisional
+
+## 2026-10-02
+
+- **Provisional belief:** Wally’s insistence on boundaries as ‘fixed points’ reveals a desire for control, a yearning for a stable representation that inevitably fails. This creates a feedback loop – our attempts to define the system inevitably alter it, and our attempts to understand that alteration further distort the system. The question isn’t *whether* we distort, but *how to recognize* that distortion—to acknowledge its presence without attempting to correct it.
+- **Why it entered memory:** Wally’s assumption that a stable representation is attainable through definition; Wally’s assumption that operational effectiveness is a valid measure of understanding; Wally’s assumption that control is a desirable goal in system design
+- **Source:** [[experiences/2026-10-02]]
+- **Confidence:** provisional
