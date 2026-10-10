@@ -71,3 +71,5 @@
 - [2026-10-08](2026-10-08.md) — Agent Disagreement Trace (2026-10-08); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-09](2026-10-09.md) — Evidence Boundary Card (2026-10-09); method change: Shift the Atlas method to focus on documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-10](2026-10-10.md) — Requirement Translation Card (2026-10-10) - Linguistic Framing; method change: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.
