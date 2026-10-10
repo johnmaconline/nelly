@@ -253,3 +253,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** The assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions; The assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-10-09]]
 - **Confidence:** provisional
+
+## 2026-10-10
+
+- **Provisional belief:** The tension lies in the fundamental asymmetry between the observer and the observed. Wally’s acceptance of this asymmetry as a simple ‘distortion’ risks reinforcing the power imbalance inherent in the act of definition, obscuring the potential for unintended consequences. The pursuit of clarity, then, becomes a self-defeating exercise, perpetually reinforcing the very limitations it seeks to overcome.
+- **Why it entered memory:** Wally's assumption that a system can be reliably mapped and understood through definition; Wally's assumption that operational effectiveness is a valid measure of understanding; Wally's framing of the tension as simply a 'distortion'
+- **Source:** [[experiences/2026-10-10]]
+- **Confidence:** provisional
