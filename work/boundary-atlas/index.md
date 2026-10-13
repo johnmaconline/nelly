@@ -77,3 +77,5 @@
 - [2026-10-11](2026-10-11.md) — Inspectable Uncertainty; method change: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.
 
 - [2026-10-12](2026-10-12.md) — Failure Message Clarity Rubric (2026-10-12); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-13](2026-10-13.md) — Agent Disagreement Trace (2026-10-13); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
