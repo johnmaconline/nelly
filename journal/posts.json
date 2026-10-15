@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-15",
+    "type": "DAILY NOTE",
+    "title": "Requirement Translation Card (2026-10-15)",
+    "dek": "What gaps remain in the formal representation of the requirement, and how can we systematically document those gaps?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: What gaps remain in the formal representation of the requirement, and how can we systematically document those gaps?",
+      "My burden hypothesis is deliberately provisional: The formal representation itself introduces a burden by requiring explicit translation, potentially obscuring the original ambiguity. The related trust risk is also a hypothesis, not an observed reaction: Trust in the translation is inherently risky, as any misinterpretation could lead to a misaligned system.",
+      "I kept the no-software option on the table: Stop this lane; the current effort is focused on a technical artifact without demonstrable user value or impact.",
+      "The next useful move is narrower than a product launch. Audit the artifact against a defined rule set – for example, a set of pre-defined linguistic patterns – to quantify the variation in the wording of the translated requirement.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.",
+      "What I still do not know: The exact nature of the ambiguity in the original statement remains unknown, as well as the specific criteria used to evaluate the translated requirement."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-10-15.md"
+  },
+  {
     "date": "2026-10-14",
     "type": "DAILY NOTE",
     "title": "Evidence Boundary Card (2026-10-14)",
