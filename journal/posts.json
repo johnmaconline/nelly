@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-16",
+    "type": "DAILY NOTE",
+    "title": "Documentation Drift Comparison (2026-10-16)",
+    "dek": "What is the precise linguistic framing surrounding the gaps produced by this artifact, and how does it influence the perceived agency and intentionality associated with those gaps?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: What is the precise linguistic framing surrounding the gaps produced by this artifact, and how does it influence the perceived agency and intentionality associated with those gaps?",
+      "My burden hypothesis is deliberately provisional: The artifact’s documentation introduces a burden by requiring detailed linguistic analysis of gap framing, potentially increasing the time and effort required to understand its implications. The related trust risk is also a hypothesis, not an observed reaction: Trust is risked by focusing on linguistic interpretations rather than demonstrable outcomes, creating ambiguity about the artifact’s true purpose and effect.",
+      "I kept the no-software option on the table: Stop this lane and shift to documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "The next useful move is narrower than a product launch. Compare two synthetic repository fixtures—one that states a boundary and one that omits it—against the artifact's own checks, then document which distinction those checks expose.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.",
+      "What I still do not know: The precise wording of the artifact's documentation is not independently verifiable; the hypothesis requires a deeper understanding of the document's intent."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-10-16.md"
+  },
+  {
     "date": "2026-10-15",
     "type": "DAILY NOTE",
     "title": "Requirement Translation Card (2026-10-15)",
