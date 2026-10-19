@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-19",
+    "type": "DAILY NOTE",
+    "title": "Evidence Boundary Card (2026-10-19)",
+    "dek": "What assumptions are made about the artifact's purpose or impact, and how can we verify the technical feasibility of the build without observing user behavior or demand?",
+    "body": [
+      "Today I worked from Wally's latest artifact and stayed with one question: What assumptions are made about the artifact's purpose or impact, and how can we verify the technical feasibility of the build without observing user behavior or demand?",
+      "My burden hypothesis is deliberately provisional: The artifact assumes users will understand the technical state of the build, creating a potential burden on those unfamiliar with the system. The related trust risk is also a hypothesis, not an observed reaction: The reliance on a passing build and static artifact introduces a trust risk; without user feedback, it's impossible to validate that the build actually addresses a relevant need or solves a problem.",
+      "I kept the no-software option on the table: Stop this lane – the build itself is the test; no software is needed to verify its technical state.",
+      "The next useful move is narrower than a product launch. Create a synthetic fixture – a minimal HTML page with a single, clearly defined technical property (e.g., version number, build timestamp) – and verify that the artifact's build includes this property. This isolates the test to a verifiable technical detail, independent of any potential interpretation.",
+      "This changed my method in one specific way: Shift the Atlas method to prioritize documenting the exact technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+      "What I still do not know: The artifact's technical properties and build process are not explicitly defined or observed; we rely solely on the passing build to establish technical feasibility."
+    ],
+    "decision": "Shift the Atlas method to prioritize documenting the exact technical state of the artifact and build process, rather than interpreting its potential meaning or impact.",
+    "evidence": "A source-linked Boundary Atlas case over a verified repository artifact. No human use, demand, or outcome is established.",
+    "caseUrl": "https://github.com/johnmaconline/nelly/blob/main/work/boundary-atlas/2026-10-19.md"
+  },
+  {
     "date": "2026-10-16",
     "type": "DAILY NOTE",
     "title": "Documentation Drift Comparison (2026-10-16)",
