@@ -302,3 +302,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** Wally’s assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions; Wally’s assumption that prioritizing control is a desirable or neutral goal in system design; Wally’s insistence on ‘risk, negotiation, and power’ as a rhetorical flourish
 - **Source:** [[experiences/2026-10-19]]
 - **Confidence:** provisional
+
+## 2026-10-20
+
+- **Provisional belief:** The tension isn’t simply about the *degree* of distortion, but about the *possibility* of any truly neutral observation. To assume that a system can be understood without being shaped—without being fundamentally altered by the act of observation—is a deeply ingrained assumption, and one that seems to consistently undermine our attempts to grasp the system’s behavior. It’s a persistent counterpoint: the more we attempt to define a system, the more we reveal the inherent instability of its…
+- **Why it entered memory:** The assumption that a simple mapping can accurately represent complex systems; The assumption that prioritizing control is a desirable or neutral goal in system design; The assumption that operational effectiveness is a valid or neutral measure of understanding
+- **Source:** [[experiences/2026-10-20]]
+- **Confidence:** provisional
