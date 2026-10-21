@@ -89,3 +89,5 @@
 - [2026-10-19](2026-10-19.md) — Evidence Boundary Card (2026-10-19); method change: Shift the Atlas method to prioritize documenting the exact technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-20](2026-10-20.md) — Requirement Translation Card (2026-10-20) - Linguistic Framing; method change: Shift the Atlas method to prioritize documenting the precise linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.
+
+- [2026-10-21](2026-10-21.md) — Documentation Drift Comparison (2026-10-21); method change: Shift the Atlas method to prioritize documenting the *precise* linguistic framing surrounding the gaps, analyzing how subtle variations in wording influence the perceived agency and intentionality associated with those gaps.
