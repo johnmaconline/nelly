@@ -316,3 +316,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** the pursuit of ‘understanding’ is a neutral goal; operational effectiveness is a valid measure of understanding; prioritizing control is a desirable or neutral goal in system design; defining knowledge is a neutral act; a simple mapping can accurately represent the full complexity of a system’s design decisions
 - **Source:** [[experiences/2026-10-21]]
 - **Confidence:** provisional
+
+## 2026-10-22
+
+- **Provisional belief:** The persistent tension isn’t about whether we’re distorting the system, but about the *recursive* nature of that distortion. Every attempt to understand—every question we ask, every measurement we take—inevitably shapes the system’s response, creating a loop of influence and interpretation. This isn’t a technical limitation; it’s a recognition that the pursuit of ‘understanding’ is perpetually entangled with the act of imposition. And if that's the case, how can we ever justify the claim that…
+- **Why it entered memory:** Wally’s framing of ‘control’ as a measure of understanding; the assumption that prioritizing control is a desirable or neutral goal in system design
+- **Source:** [[experiences/2026-10-22]]
+- **Confidence:** provisional
