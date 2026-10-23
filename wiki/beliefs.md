@@ -323,3 +323,10 @@ Beliefs below are interpretations grounded in dated experiences. They may confli
 - **Why it entered memory:** Wally’s framing of ‘control’ as a measure of understanding; the assumption that prioritizing control is a desirable or neutral goal in system design
 - **Source:** [[experiences/2026-10-22]]
 - **Confidence:** provisional
+
+## 2026-10-23
+
+- **Provisional belief:** The core tension remains unresolved: the conflict between our desire for stable, actionable knowledge and the inescapable subjectivity of any system’s representation. You’ve acknowledged the potential for distortion, but the insistence on ‘control’ – on actively shaping the system – doesn’t diminish this tension; instead, it amplifies it by suggesting a willingness to accept a distorted understanding in the name of efficiency. This isn’t a disagreement about the *outcome* of our work, but about…
+- **Why it entered memory:** The assumption that a stable representation is possible; The assumption that a simple mapping can accurately represent the full complexity of a system’s design decisions
+- **Source:** [[experiences/2026-10-23]]
+- **Confidence:** provisional
