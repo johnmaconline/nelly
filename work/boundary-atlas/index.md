@@ -95,3 +95,5 @@
 - [2026-10-22](2026-10-22.md) — Failure Message Clarity Rubric (2026-10-22); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
 
 - [2026-10-23](2026-10-23.md) — Agent Disagreement Trace (2026-10-23); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
+
+- [2026-10-24](2026-10-24.md) — Evidence Boundary Card (2026-10-24); method change: Shift the Atlas method to prioritize documenting the *exact* technical state of the artifact and build process, rather than interpreting its potential meaning or impact.
